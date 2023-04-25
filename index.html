@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="dog.js" defer></script>
+    <title>Everything Pet</title>
+    
+</head>
+    <body>
+      
+        <div class="banner">
+          
+            <div class="navbar">
+              
+            
+                <img src="images/WEBLOG.png" class="logo">
+                
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">PET PHARMACY</a></li>
+                    <li><a href="#">BRANDS</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">MY ACCOUNT</a></li>
+                    <li><a href="#">JOIN FORUM</a></li>
+                    <li><a href="#">FAQ</a></li>
+
+                </ul>
+            
+            </div>
+            <div>
+              <section id="main2"></section>
+          </div>
+        
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        
+
+        
+        <div>
+            
+            <section id="main"><img src="images/DOG1.png" width="150"></a><img src="images/german.png" width="73"/><img src="images/kit cat.png" width="85"></section></div>
+
+            
+            <div class="bannerr">
+              <div class="navbarr">
+                
+          <ul>
+              
+              <li><a href="#">WHAT'S NEW</a></li>
+              <li><a href="#">RAW FEEDING</a></li>
+              <li><a href="#">DOG</a></li>
+              <li><a href="#">CAT</a></li>
+              <li><a href="#">SMALL ANIMAL</a></li>
+              <li><a href="#">BIRD</a></li>
+              <li><a href="#">FISH</a></li>
+              <li><a href="#">REPTILE</a></li>
+              <li><a href="#">HORSE</a></li>
+              
+
+          </ul>
+      </div>
+      
+
+
+
+      <nav class="dropdownmenu">
+        <ul>
+          <li><a href="">WHAT'S NEW</a></li>
+          <li><a href="">RAW FEEDING</a></li>
+          <li><a href="#">DOG</a></li>
+            <ul id="submenu">
+                  <li><a href="">WHAT'S NEW</a></li>
+                  <li><a href="">WHAT'S NEW</a></li>
+                  <li><a href="">WHAT'S NEW</a></li>
+        </ul>
+        </li>
+          <li><a href="#">CAT</a></li>
+            <ul id="submenu">
+                  <li><a href="">WHAT'S NEW</a></li>
+                  <li><a href="">WHAT'S NEW</a></li>
+                  <li><a href="">WHAT'S NEW</a></li>
+                </ul>
+              </li>      
+          <li><a href="#">SMALL ANIMAL</a></li>
+          <li><a href="#">BIRD</a></li>
+          <li><a href="#">FISH</a></li>
+          <li><a href="#">REPTILE</a></li>
+          
+
+        </ul>
+      </nav>
+            </div>
+
+
+
+
+
+
+
+
+
+<!-- ================================================================================================================================= -->
+<!-- 
+<div class="site-header relative cmw z-site-header" id="site-header">
+  <div class="desktop-header__wrap relative show-at-medium">
+      <div class="desktop-header">
+          <a class="site-header__logo desktop-header__logo" href="https://www.akc.org">
+                  <svg class="icon icon-akc-logo-opaque " viewBox="0 0 315 121">
+              
+        
+          <div class="site-header__nav-area">
+              <div class="utility-header">
+                  <nav class="utility-nav">
+                  <a href="https://www.apps.akc.org/event-search" class="link-with-icon " target="_blank">
+      
+          <span class="small-icon">
+              <svg class="icon icon-event " viewBox="0 0 300 250">
+          
+      <image data-name="Layer 0" x="15" y="2" width="270" height="246" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:img/png;base64,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"></image><image x="51" y="90" width="185" height="141" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAALkAAACNCAMAAADcmCvVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC1lBMVEUAf84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84Af84AAADkOk9eAAAA8HRSTlMAIFqMvLuaaS5IttyHJxuzoCpM8Xw3ExLv4L3hBV63BPpZq/IGPqmGpe59Gcf2iiVfoQ33eq1vObXVrFjq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"></image></svg>    </span>
+      
+              Event Search
+      
+      </a>
+      <a href="https://marketplace.akc.org/" class="link-with-icon " target="_blank">
+      
+          <span class="small-icon">
+              <svg class="icon icon-paw " viewBox="0 0 13 13">
+          
+      <g fill-rule="nonzero" fill="#007ACC"><path d="M8.91 12.766c-.42 0-.829-.083-1.21-.237a3.199 3.199 0 00-1.198-.231 3.2 3.2 0 00-1.203.233 3.21 3.21 0 01-1.205.235c-1.596 0-2.89-1.152-2.89-2.573.001-.869.49-1.65 1.258-2.12.347-.196.668-.453.925-.782.257-.327.397-.828.541-1.074.483-.834 1.454-1.402 2.574-1.402 1.123 0 2.097.57 2.576 1.405.092.152.282.744.539 1.071.257.33.578.586.923.78.768.47 1.259 1.252 1.26 2.122 0 1.421-1.294 2.573-2.89 2.573z"></path><ellipse cx="1.459" cy="4.831" rx="1.265" ry="1.758"></ellipse><ellipse cx="4.481" cy="1.896" rx="1.265" ry="1.758"></ellipse><ellipse transform="matrix(-1 0 0 1 23.092 0)" cx="11.546" cy="4.831" rx="1.265" ry="1.758"></ellipse><ellipse transform="matrix(-1 0 0 1 17.046 0)" cx="8.523" cy="1.896" rx="1.265" ry="1.758"></ellipse></g></svg>    </span>
+      
+              Find a Puppy
+      
+      </a>
+      <a href="https://www.akc.org/register/" class="link-with-icon ">
+      
+          <span class="small-icon">
+              <svg class="icon icon-computer " viewBox="0 0 30 21">
+          
+      <path d="M12.671 10.579l.868.868a.576.576 0 00.869 0l.868-.868 4.737-4.697a.576.576 0 000-.869l-.868-.868a.545.545 0 00-.434-.237.636.636 0 00-.435.197l-4.263 4.263-1.895-1.934a.576.576 0 00-.868 0l-.908.908a.576.576 0 000 .869l2.33 2.368zM27 15.474V1.816A1.836 1.836 0 0025.184 0H5.171a1.836 1.836 0 00-1.816 1.816v13.658l-2.96 2.96v1.145a.888.888 0 00.908.908h27.79a.888.888 0 00.907-.908v-1.145l-3-2.96zm-1.816-.908H5.171V1.816h20.013v12.75z"></path></svg>    </span>
+      
+              Register Your Dog
+      
+      </a>
+      <a href="https://shop.akc.org/" class="link-with-icon " target="_blank">
+      
+          <span class="small-icon">
+              <svg class="icon icon-cart " viewBox="0 0 14 15">
+          
+      <g fill="#007ACC" fill-rule="evenodd"><path d="M4.76 11.216c-.805 0-1.458.666-1.458 1.487 0 .821.653 1.487 1.458 1.487.806 0 1.459-.666 1.459-1.487 0-.821-.653-1.487-1.459-1.487zm6.08 0c-.805 0-1.458.666-1.458 1.487 0 .821.653 1.487 1.458 1.487.805 0 1.458-.666 1.458-1.487 0-.821-.653-1.487-1.458-1.487z"></path><path d="M13.111 10.417a.377.377 0 010 .526.36.36 0 01-.516 0 2.322 2.322 0 00-.8-.53 2.722 2.722 0 00-1.01-.189H4.223a.367.367 0 01-.361-.323l-1.43-7.515a.394.394 0 01-.01-.045L2.132.806H.365A.368.368 0 010 .434C0 .228.163.062.365.062H2.43c.17 0 .324.124.357.302l.298 1.566 9.945.24a.37.37 0 01.36.437l-.972 5.33a.366.366 0 01-.348.303l-7.74.235.192 1.006h6.262c.438 0 .872.08 1.276.24.389.156.747.387 1.05.696z" fill-rule="nonzero"></path></g></svg>    </span>
+      
+              Shop
+      
+      </a>
+      <a href="https://akc.tv/?utm_source=akc.org&amp;utm_medium=homepage&amp;utm_campaign=utility_bar" class="link-with-icon " target="_blank">
+      
+          <span class="small-icon">
+              <svg class="icon icon-akc-tv " viewBox="0 0 16 16">
+          
+      <path fill="#007ACC" fill-rule="evenodd" d="M4.293 13H3a2 2 0 01-2-2V3a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-1.293l.854.854a.5.5 0 01-.707.707l-1.415-1.415a.499.499 0 01-.101-.146H5.662a.499.499 0 01-.101.146l-1.415 1.415a.5.5 0 01-.707-.707L4.293 13zM3 2a1 1 0 00-1 1v8a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H3zm7.882 4.738c.112.074.169.161.169.262 0 .1-.057.188-.169.262L6.915 9.869a.71.71 0 01-.399.11.71.71 0 01-.398-.11c-.112-.074-.169-.161-.169-.262V4.393c0-.101.057-.188.169-.262a.71.71 0 01.398-.11c.154 0 .287.036.399.11l3.967 2.607z"></path></svg>    </span>
+      
+              AKC TV
+      
+      </a>
+</nav>
+
+                  <nav class="utility-nav sign-in-nav">
+              <a href="https://www.akc.org/wp-login.php" class="link-with-icon ">
+  
+      <span class="small-icon">
+          <svg class="icon icon-profile-no-circle " viewBox="0 0 13 13">
+          
+      <path d="M.664 9.967l3.89-2.094A3.8 3.8 0 006.5 8.41v.002h.001V8.41c.704 0 1.366-.195 1.946-.538l3.89 2.094c.42.226.663.635.663 1.11v1.082a.843.843 0 01-.841.841H.841A.843.843 0 010 12.159v-1.081c0-.476.244-.885.664-1.111zM6.5 0v.002H6.5V0c-.923 0-1.76.423-2.37 1.105-.619.694-1.003 1.655-1.003 2.719h.002v.002h-.002c0 1.064.384 2.025 1.003 2.718.588.659 1.39 1.075 2.274 1.104l.083.001H6.5v-.001h.002v.001h.013l.082-.001c.884-.029 1.686-.445 2.274-1.104.619-.693 1.002-1.655 1.002-2.719h-.001v-.002h.001c0-1.062-.384-2.024-1.004-2.718h.001C8.261.423 7.423 0 6.501 0z" fill="#007ACC" fill-rule="evenodd"></path></svg>    </span>
+  
+          Sign In
+  
+  </a>
+
+          </nav>
+
+                      <div class="desktop-search">
+                          <div class="autocomplete__wrap" data-js-component="searchAutocomplete" data-endpoint="https://www.akc.org/wp-json/search/v1/suggest" data-scale="1" data-js-component-initialized="true">
+                      <div class="search-with-icon" data-scale="">
+      <form class="flex-search-form " action="https://www.akc.org/">
+          <div class="form-element ">
+              <input type="text" id="desktop-search" name="s" class="form-control" placeholder="Search" autocomplete="off">
+          </div>
+  
+          <button class="button" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12">
+                  <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="1.25" transform="translate(1 1)">
+                      <ellipse cx="3.6" cy="3.81" rx="3.6" ry="3.81"></ellipse>
+                      <path d="M6.075 6.9047619L9 10" stroke-linecap="round"></path>
+                  </g>
+              </svg>
+          </button>
+      </form>
+  </div>
+
+                      <div class="autocomplete-container"><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 400px; z-index: 9999;"></div></div>
+                  </div>                </div>
+              </div>
+      
+              <div class="primary-nav">
+          <nav class="primary-nav__group">
+                  <a data-menu-id="dog-breeds" class="primary-nav__link">Breeds A-Z</a>
+                  <a data-menu-id="expert-advice" class="primary-nav__link">Expert Advice</a>
+                  <a data-menu-id="product-services" class="primary-nav__link">Products &amp; Services</a>
+                  <a data-menu-id="sports-events" class="primary-nav__link">Sports &amp; Events</a>
+                  <a data-menu-id="clubs-delegates" class="primary-nav__link">Clubs &amp; Delegates</a>
+          </nav>
+      </div>
+  </div>
+      
+      </div>
+
+      <div id="mega-menu" class="mega-menu">
+              <div class="mega-menu__panel mega-menu__grid mega-menu__grid-4-up" id="dog-breeds" data-js-component="megaMenu" data-parent=".mega-menu" data-dropdown-trigger=".primary-nav__link" data-js-component-initialized="true">
+                      <div class="mega-menu-column">
+              
+                      <div class="mega-menu-column__menu-section">
+                          <h3 class="mega-menu-column__title">Breed Explorer</h3>
+                          <div class="breed-explorer">
+                  <a class="button
+          
+          
+          
+          
+           button--ghost 
+          
+          
+          
+          
+          
+          
+          " href="https://www.akc.org/dog-breeds/">View All Breeds</a>
+  <form action="#" data-js-component="navigateOnChange" data-js-component-initialized="true">
+                      <div class="custom-select
+              ">
+                  <label for="breed-search-selectized" class="form-label">Find By Breed Name </label>
+              <select class="custom-select__select selectized" name="breed-search" id="breed-search" placeholder="Select A Breed" data-js-component="selectize" data-js-component-initialized="true" tabindex="-1" style="display: none;"><option value="" selected="selected"></option></select><div class="selectize-control custom-select__select single"><div class="selectize-input items not-full has-options"><input type="text" autocomplete="off" tabindex="" id="breed-search-selectized" placeholder="Select A Breed" style="width: 99.0938px;"></div><div class="selectize-dropdown single custom-select__select" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+          </div>
+
+                      <div class="custom-select
+              ">
+                  <label for="breed_group-selectized" class="form-label">Explore by characteristic or group </label>
+              <select class="custom-select__select selectized" name="breed_group" id="breed_group" placeholder="Select Characteristic or Group" data-js-component="selectize" data-js-component-initialized="true" tabindex="-1" style="display: none;"><option value="" selected="selected"></option></select><div class="selectize-control custom-select__select single"><div class="selectize-input items not-full has-options"><input type="text" autocomplete="off" tabindex="" id="breed_group-selectized" placeholder="Select Characteristic or Group" style="width: 198.156px;"></div><div class="selectize-dropdown single custom-select__select" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+          </div>
+  </form>
+          </div>
+      </div>
+              
+              
+              
+              
+              
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Choosing The Right Breed</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://www.akc.org/dog-breed-selector/">
+              <svg class="icon icon-circle-heart " viewBox="0 0 68 68">
+      
+  <g fill-rule="evenodd"><path fill-rule="nonzero" d="M34 67.5C15.498 67.5.5 52.502.5 34 .5 15.498 15.498.5 34 .5 52.502.5 67.5 15.498 67.5 34c0 18.502-14.998 33.5-33.5 33.5zm0-3c16.845 0 30.5-13.655 30.5-30.5S50.845 3.5 34 3.5 3.5 17.155 3.5 34 17.155 64.5 34 64.5z"></path><path d="M34.307 48.892c-1.413-1.668-2.773-3.268-4.128-4.873-2.686-3.182-5.34-6.391-8.061-9.543-3.657-4.236-1.909-10.336 2.946-12.144 3.221-1.2 6.967.12 8.826 3.142.13.21.253.426.44.74.142-.204.257-.348.35-.505 1.657-2.849 4.432-4.12 7.672-3.652 2.963.427 5.397 2.83 5.988 5.904.486 2.524-.267 4.718-1.93 6.663-3.894 4.56-7.746 9.157-11.617 13.738-.13.153-.27.296-.486.53"></path></g></svg>
+              <div class="menu-link__text">
+                  Find Your Match
+          
+                  <span class="menu-link__description">
+                      Answer a few simple questions and find the right dog for you
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://www.akc.org/compare-breeds/">
+              <svg class="icon icon-circle-scale " viewBox="0 0 68 68">
+      
+  <path d="M34 67.5C15.498 67.5.5 52.502.5 34 .5 15.498 15.498.5 34 .5 52.502.5 67.5 15.498 67.5 34c0 18.502-14.998 33.5-33.5 33.5zm0-3c16.845 0 30.5-13.655 30.5-30.5S50.845 3.5 34 3.5 3.5 17.155 3.5 34 17.155 64.5 34 64.5z"></path><path d="M18.558 37.101l-.054.162c-.102.302-.158.984.275 1.627.722 1.072 2.463 1.616 5.174 1.616 2.712 0 4.452-.544 5.174-1.616.433-.643.377-1.325.276-1.627l-.055-.162a2.508 2.508 0 00-.145-.33l-5.25-9.724-5.25 9.724c-.05.092-.115.24-.145.33zm9.274-.163h-7.757c-.101 0-.143-.075-.093-.167l3.88-7.208c.05-.092.132-.092.181 0l3.882 7.207c.05.093.008.168-.093.168zm21.036-.167l-5.25-9.724-5.25 9.724c-.05.092-.116.24-.145.33l-.055.162c-.101.302-.157.984.275 1.627.722 1.072 2.463 1.616 5.175 1.616 2.711 0 4.452-.544 5.174-1.616.432-.643.377-1.325.275-1.627l-.054-.162a2.5 2.5 0 00-.145-.33zm-9.222 0l3.881-7.207c.05-.093.131-.093.18 0l3.882 7.207c.05.092.008.168-.093.168h-7.757c-.101 0-.143-.076-.093-.168zm.041 10.773H28.631c-.202 0-.367-.108-.367-.241v-.241c0-2.1 2.59-3.744 5.895-3.744 3.306 0 5.895 1.644 5.895 3.744v.241c0 .133-.164.241-.367.241zM34 26.808l.207-1.745c.322.17 1.356-.276 2.111-.603.953-.412 1.938-.838 2.788-.838 1.17 0 2.21.623 3.047 1.124.378.227.736.44.993.522.152.048.27.005.372-.033.104-.039.318-.118.526.037a.513.513 0 01.201.413c0 .275-.2.492-.32.597a1.195 1.195 0 01-1.016.283c-.392-.074-.856-.245-1.347-.427-.776-.286-1.655-.61-2.397-.61-.91 0-1.668.3-2.472.618-.822.325-1.673.662-2.693.662zm-.406 0c-1.021 0-1.872-.337-2.694-.662-.803-.318-1.562-.619-2.471-.619-.743 0-1.622.325-2.397.611-.492.181-.956.353-1.348.427a1.195 1.195 0 01-1.016-.283c-.12-.105-.32-.322-.32-.597 0-.165.075-.32.2-.413.21-.155.424-.076.527-.037.103.038.22.081.372.033.258-.081.615-.295.994-.522.836-.5 1.876-1.124 3.046-1.124.85 0 1.836.426 2.788.838.755.326 1.79.774 2.111.603l.208 1.745z"></path><path d="M32.36 26.334c0-1.025.544-1.856 1.215-1.856.67 0 1.213.831 1.213 1.856V45.59h-2.427V26.334z"></path></svg>
+              <div class="menu-link__text">
+                  Compare Breeds
+          
+                  <span class="menu-link__description">
+                      Compare up to 5 different breeds side by side
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://marketplace.akc.org/" target="_blank">
+              <svg class="icon icon-market " viewBox="0 0 38 38">
+      
+  <path d="M11 11.643h15.44v.988H11v-.988zm16.985 3.758c.302.463.303 1.084-.04 1.517a1.593 1.593 0 01-1.252.611c-.888 0-1.608-.735-1.608-1.643 0 .908-.72 1.643-1.609 1.643-.888 0-1.608-.735-1.608-1.643 0 .908-.72 1.643-1.609 1.643-.888 0-1.608-.735-1.608-1.643 0 .908-.72 1.643-1.609 1.643-.888 0-1.608-.735-1.608-1.643 0 .908-.72 1.643-1.609 1.643s-1.608-.735-1.608-1.643c0 .908-.72 1.643-1.609 1.643-.505 0-.957-.239-1.252-.611-.342-.433-.341-1.054-.04-1.517l1.614-2.471h15.441l1.614 2.471zm-1.614 3.375V28h-15.44v-9.224a2.23 2.23 0 001.286-.666c.409.427.979.692 1.608.692.63 0 1.2-.265 1.609-.692.409.427.979.692 1.608.692.63 0 1.2-.265 1.609-.692.409.427.979.692 1.608.692.63 0 1.2-.265 1.609-.692.409.427.979.692 1.608.692.63 0 1.2-.265 1.609-.692a2.23 2.23 0 001.286.666zm-9.367 3.112h-3.217v5.585h3.217v-5.585zm6.865-.493h-4.897v3.25h4.897v-3.25z"></path><path d="M19 38C8.507 38 0 29.493 0 19S8.507 0 19 0s19 8.507 19 19-8.507 19-19 19zm0-2c9.389 0 17-7.611 17-17S28.389 2 19 2 2 9.611 2 19s7.611 17 17 17z"></path></svg>
+              <div class="menu-link__text">
+                  Find a Puppy
+          
+                  <span class="menu-link__description">
+                      Browse the AKC Marketplace to find the right puppy for you
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Prospective Owners</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/expert-advice/lifestyle/answer-5-questions-find-right-dog/">
+          
+                  Choose Your Breed
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/expert-advice/lifestyle/8-science-based-benefits-dog/">
+          
+                  Why Get a Dog?
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/expert-advice/lifestyle/9-tips-finding-working-responsible-breeder/">
+          
+                  Finding a Responsible Breeder
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/expert-advice/sports/get-started-world-dog-sports-events/">
+          
+                  Getting Started in Dog Sports
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/puppies">
+          
+                  All About Puppies
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Additional Resources</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://marketplace.akc.org/puppies" target="_blank">
+          
+                  Find a Purebred Puppy
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/register/">
+          
+                  Register Your Dog
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://webapps.akc.org/club-search/#/" target="_blank">
+          
+                  Find a Breed Club
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/most-popular-breeds/">
+          
+                  Most Popular Dog Breeds
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/breeder-programs/">
+          
+                  For Dog Breeders
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/dog-owners/">
+          
+                  For Dog Owners
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+      </div>
+              <div class="mega-menu__panel mega-menu__grid mega-menu__grid-4-up is-closing" id="expert-advice" data-js-component="megaMenu" data-parent=".mega-menu" data-dropdown-trigger=".primary-nav__link" data-js-component-initialized="true">
+                      <div class="mega-menu-column">
+              
+              
+                      <div class="mega-menu-column__menu-section">
+                          <h3 class="mega-menu-column__title">Featured</h3>
+                          <div class="content-card
+          
+          
+          
+          ">
+          
+              <div class="relative ">
+          
+                      <div class="media-wrap
+                              
+                          ">
+                          <img width="400" height="auto" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-400x267.jpg" class="rectangle_thumbnail wp-post-image lozad" alt="" decoding="async" loading="lazy" data-src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-400x267.jpg" data-srcset="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-400x267.jpg 400w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-300x200.jpg 300w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-768x512.jpg 768w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-50x33.jpg 50w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors.jpg 789w" data-sizes="(max-width: 400px) 100vw, 400px" srcset="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-400x267.jpg 400w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-300x200.jpg 300w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-768x512.jpg 768w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors-50x33.jpg 50w, https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2022/09/13114652/Great-Pyrenees-puppy-sitting-in-the-lap-of-a-woman-indoors.jpg 789w" data-loaded="true">
+                      </div>
+          
+          
+              </div>
+          
+              <div class="content-card__body">
+                  <div class="content-card__meta">
+                          <a href="https://www.akc.org/expert-advice/lifestyle/names/" class="content-card__category">
+                              Names
+                          </a>
+                  </div>
+                  <a href="https://www.akc.org/expert-advice/lifestyle/most-popular-dog-names/" class="content-card__title">
+                      The Most Popular Dog Names of 2022
+                  </a>
+              </div>
+          </div>
+      </div>
+              
+              
+              
+              
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__2-up">
+              
+                          <h3 class="mega-menu-column__title">Browse By Topic</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/">
+          
+                  All Categories
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/dog-breeds/">
+          
+                  Dog Breeds
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/health/">
+          
+                  Health
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/nutrition/">
+          
+                  Nutrition
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/training/">
+          
+                  Training
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/sports/">
+          
+                  Dog Sports
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/dog-breeding/">
+          
+                  Dog Breeding
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/puppy-information/">
+          
+                  Puppy Info
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/news/">
+          
+                  News
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/health/senior-dog-health/">
+          
+                  Senior Dog Health
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/health/flea-tick/">
+          
+                  Flea &amp; Tick
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Tools &amp; Quizzes</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://www.akc.org/dog-breed-selector/">
+              <svg class="icon icon-circle-heart " viewBox="0 0 68 68">
+      
+  <g fill-rule="evenodd"><path fill-rule="nonzero" d="M34 67.5C15.498 67.5.5 52.502.5 34 .5 15.498 15.498.5 34 .5 52.502.5 67.5 15.498 67.5 34c0 18.502-14.998 33.5-33.5 33.5zm0-3c16.845 0 30.5-13.655 30.5-30.5S50.845 3.5 34 3.5 3.5 17.155 3.5 34 17.155 64.5 34 64.5z"></path><path d="M34.307 48.892c-1.413-1.668-2.773-3.268-4.128-4.873-2.686-3.182-5.34-6.391-8.061-9.543-3.657-4.236-1.909-10.336 2.946-12.144 3.221-1.2 6.967.12 8.826 3.142.13.21.253.426.44.74.142-.204.257-.348.35-.505 1.657-2.849 4.432-4.12 7.672-3.652 2.963.427 5.397 2.83 5.988 5.904.486 2.524-.267 4.718-1.93 6.663-3.894 4.56-7.746 9.157-11.617 13.738-.13.153-.27.296-.486.53"></path></g></svg>
+              <div class="menu-link__text">
+                  Find Your Match
+          
+                  <span class="menu-link__description">
+                      Answer a few simple questions and find the right dog for you
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://www.akc.org/dog-name-finder/">
+              <svg class="icon icon-circle-tag " viewBox="0 0 68 68">
+      
+  <path d="M24.656 44.162c-1.57.893-3.994.715-5.25-.403-1.89-1.684-2.103-5.146.784-6.815.18-.104.386-.168.553-.288.125-.09.295-.248.288-.365-.01-.148-.148-.357-.283-.417-1.28-.57-2.21-1.466-2.59-2.881-.65-2.436.933-4.832 3.37-5.126 1.355-.163 2.632.008 3.738.91.906.74 1.345 1.754 1.575 2.924h5.69c-.683-1.002-.848-2.08-.55-3.204.382-1.435 1.764-2.145 2.977-1.557.278.135.51.372.828.612l-.669.387c-1.149-1.016-2.399-.151-2.49 1.136-.04.558.077 1.154.241 1.694.167.549.748.874 1.213.829.535-.052.905-.387 1.075-1.005.063-.233.095-.478.116-.72.057-.652.051-.652.703-.597.149.674-.002 1.43-.49 2.427h5.686c.209-1.143.671-2.14 1.561-2.889 2.632-2.212 6.651-.74 7.222 2.645.266 1.58-.642 3.344-2.153 4.174-.144.078-.294.143-.44.216-.19.095-.418.112-.42.441-.004.323.206.36.402.454 1.355.646 2.31 1.646 2.571 3.21.353 2.115-.902 4.11-2.93 4.608-1.582.389-3.1.25-4.393-.898-.72-.637-1.161-1.468-1.339-2.42-.069-.369-.228-.415-.53-.415-2.949.004-5.897-.002-8.845-.008-1.511-.003-3.022-.011-4.533-.017h-.503c-.3 1.47-.923 2.64-2.185 3.358zm8.418-17.492l-.647.313c-.07-.26-.179-.497-.19-.737-.08-1.75.392-3.29 1.733-4.446 1.66-1.43 3.963-.59 4.372 1.604.317 1.695-.146 3.213-1.21 4.51-1.007 1.226-2.553 1.44-3.698.594-.07-.052-.13-.12-.194-.178l.486-.513c1.201.704 2.275.475 3.095-.73.657-.963.97-2.045.838-3.238-.1-.904-.49-1.601-1.363-1.902-.873-.302-1.563.087-2.146.718-.983 1.064-1.368 2.515-1.076 4.005z"></path><path d="M34 67.5C15.498 67.5.5 52.502.5 34 .5 15.498 15.498.5 34 .5 52.502.5 67.5 15.498 67.5 34c0 18.502-14.998 33.5-33.5 33.5zm0-3c16.845 0 30.5-13.655 30.5-30.5S50.845 3.5 34 3.5 3.5 17.155 3.5 34 17.155 64.5 34 64.5z"></path></svg>
+              <div class="menu-link__text">
+                  Dog Name Finder
+          
+                  <span class="menu-link__description">
+                      Browse our extensive library of dog names for inspiration
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link  has-icon " href="https://www.akc.org/dog-food-quiz/">
+              <svg class="icon icon-dog-bone " viewBox="0 0 84 84">
+      
+  <g fill="none" fill-rule="evenodd" transform="translate(2 2)"><circle cx="40" cy="40" r="40" stroke="#09F" stroke-width="3"></circle><path fill="#09F" d="M60.715 31.091c.017-2.508-1.712-4.4-3.966-4.59-1.543-.13-1.952-.537-2.12-2.107-.21-1.961-1.5-3.452-3.342-3.862-1.875-.418-3.714.37-4.699 2.01-.967 1.613-.778 3.621.48 5.09.936 1.093.912 1.883-.106 2.907-1.321 1.329-2.65 2.65-3.975 3.976-3.79 3.79-7.58 7.582-11.373 11.371-1.101 1.101-1.849 1.13-3.007.132-.054-.046-.106-.095-.161-.14-1.401-1.125-3.452-1.232-4.995-.259a4.304 4.304 0 00-1.905 4.682c.426 1.77 1.937 3.12 3.68 3.292 1.788.175 2.087.468 2.29 2.243.215 1.88 1.542 3.35 3.383 3.745a4.314 4.314 0 004.638-2.006 4.35 4.35 0 00-.419-5.044c-1.009-1.205-.983-1.902.118-3.002l15.246-15.247c1.18-1.18 1.812-1.192 3.108-.143 1.4 1.132 2.97 1.344 4.599.597 1.637-.75 2.429-2.114 2.526-3.645m-22.289 20.15c1.253 2.19 1.514 4.473.64 6.846-1.143 3.102-4.215 5.134-7.536 5.013-3.323-.122-6.227-2.372-7.14-5.556-.119-.411-.263-.672-.728-.814-3.005-.914-4.922-2.918-5.501-6.003-.603-3.208.497-5.88 3.157-7.761 2.588-1.83 5.375-1.9 8.2-.472.106.054.21.111.314.165.02.01.044.01-.004 0l13.85-13.851c-1.037-1.743-1.393-3.703-.916-5.783.782-3.413 3.757-5.885 7.21-6.019 3.532-.137 6.692 2.056 7.732 5.425.173.563.424.819.99.996a7.736 7.736 0 014.85 10.35c-1.74 4.215-6.766 6.024-10.817 3.884-.319-.168-.53-.27-.85.054-4.416 4.44-8.849 8.866-13.276 13.295-.065.066-.113.149-.175.232"></path></g></svg>
+              <div class="menu-link__text">
+                  Can My Dog Eat____?
+          
+                  <span class="menu-link__description">
+                      Find out the best and worst foods for your dog and which to avoid
+                  </span>
+          
+              </div>
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Additional Resources</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.tv" target="_blank">
+          
+                  AKC.TV
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/magazines/">
+          
+                  AKC Magazines
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/subscription/">
+          
+                  Newsletters
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/press-center/">
+          
+                  Press Center
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/akc-detection-dog-task-force/">
+          
+                  AKC Detection Dog Task Force
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.caninecollege.akc.org/" target="_blank">
+          
+                  AKC Canine College
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/government-relations/">
+          
+                  Government Relations
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/public-education/">
+          
+                  AKC Education
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/about/archive/">
+          
+                  AKC Library &amp; Archives
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+      </div>
+              <div class="mega-menu__panel mega-menu__grid mega-menu__grid-3-up" id="product-services" data-js-component="megaMenu" data-parent=".mega-menu" data-dropdown-trigger=".primary-nav__link" data-js-component-initialized="true">
+                      <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Products</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://shop.akc.org/" target="_blank">
+          
+                  Shop Dog Products
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://shop.akc.org/collections/shop-by-breed" target="_blank">
+                      
+                              Breed-Specific Products
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://retrievist.akc.org/reviews/best-dog-toys/" target="_blank">
+                      
+                              Dog Toys &amp; Treats
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://shop.akc.org/collections/gear-for-dogs-training-resources-supplies" target="_blank">
+                      
+                              Training Products
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://shop.akc.org/collections/gear-for-dogs-gift-boxes" target="_blank">
+                      
+                              Dog Gift Packs
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/breeder-programs/dna/">
+          
+                  DNA &amp; Health Testing
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://dna.akc.org" target="_blank">
+          
+                  DNA Kit Activation
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/magazines/">
+          
+                  AKC Magazines
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/apps/store/index.cfm?view=home" target="_blank">
+          
+                  Pedigrees
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/apps/store/?view=category&amp;cde_category=BRDR" target="_blank">
+          
+                  Breeder Reports
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/apps/store/index.cfm?view=category&amp;cde_category=COMP" target="_blank">
+          
+                  AKC Competitor Reports
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__2-up">
+              
+                          <h3 class="mega-menu-column__title">Services</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/register">
+          
+                  Register Your Dog
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/register/dog/">
+                      
+                              Register a Purebred Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/register/litter/">
+                      
+                              Register a Litter
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/register/information/canine-partners/">
+                      
+                              Enroll a Mixed-Breed Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/downloadable-forms/#Registration">
+                      
+                              Registration Downloadable Forms
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://marketplace.akc.org/">
+          
+                  AKC Marketplace
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://marketplace.akc.org/puppies" target="_blank">
+                      
+                              Find a Puppy
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/akc-rescue-network/">
+                      
+                              AKC Rescue Network
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://marketplace.akc.org/puppyvisor" target="_blank">
+                      
+                              PuppyVisor Search Counselor
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/akc-breeder-referral-contacts/">
+                      
+                              Breeder Referral Contacts
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="http://akc.org/products-services/training-programs/">
+          
+                  Dog Training Services
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/products-services/training-programs/canine-good-citizen/">
+                      
+                              Canine Good Citizen (CGC)
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/products-services/akc-gooddog-helpline/">
+                      
+                              GoodDog Helpline
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://webapps.akc.org/obedience-training-club/#/" target="_blank">
+                      
+                              Find a Training Club
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                      </ul>
+                  </div>
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/health-general-dog-care/">
+          
+                  Health &amp; Dog Care
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://marketplace.akc.org/search-groomers" target="_blank">
+                      
+                              Find a Dog Groomer
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akcpetinsurance.com/" target="_blank">
+                      
+                              AKC Pet Insurance
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akcreunite.org/" target="_blank">
+                      
+                              AKC Reunite Microchips
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://webapps.akc.org/vetnet/#/" target="_blank">
+                      
+                              AKC Veterinary Network
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/products-services/akc-safe-grooming-program/">
+                      
+                              AKC S.A.F.E. Grooming Program
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/breeder-programs/">
+          
+                  Breeder Programs &amp; Services
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/breeder-programs/akc-breeder-toolkit/">
+                      
+                              Breeder Toolkit
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.apps.akc.org/apps/ezreg/index.cfm" target="_blank">
+                      
+                              Breeder E-Z Reg
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/products-services/breeder-programs/akc-breeder-of-merit-program/">
+                      
+                              Breeder Of Merit Program
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/products-services/breeder-programs/akc-bred-with-heart-program/">
+                      
+                              Bred With H.E.A.R.T Program
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/breeder-programs/breeder-education/">
+                      
+                              Breeder Education
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.caninecollege.akc.org/" target="_blank">
+          
+                  AKC Canine College
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/products-services/">
+          
+                  Browse All Services
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+                      <div class="mega-menu-column__menu-section">
+                          <h3 class="mega-menu-column__title">Featured Products</h3>
+              
+              
+                              <h3 class="text-center h4 text-bright-blue">Video Training Consultations</h3>
+              
+                                  <div class="mb4 text-center">
+                                      <a href="https://shop.akc.org/products/akc-gooddog-helpline-video-chat/?utm_source=akc&amp;utm_medium=banner&amp;utm_campaign=20220926_gdh_featured_product">
+                                          <img class="lozad" src="/wp-content/themes/akc/component-library/assets/img/1x1.trans.gif" data-src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2023/02/02141312/CGC-Hero-Image-18.png" alt="">
+                                      </a>
+                                  </div>
+              
+                                  <a class="button
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                       button--centered
+                      
+                      
+                      
+                      " href="https://shop.akc.org/products/akc-gooddog-helpline-video-chat/?utm_source=akc&amp;utm_medium=banner&amp;utm_campaign=20220926_gdh_featured_product">PURCHASE NOW</a>
+      </div>
+              
+              
+              
+              
+              
+              </div>
+      </div>
+              <div class="mega-menu__panel mega-menu__grid mega-menu__grid-3-up" id="sports-events" data-js-component="megaMenu" data-parent=".mega-menu" data-dropdown-trigger=".primary-nav__link" data-js-component-initialized="true">
+                      <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">GETTING STARTED IN DOG SPORTS</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/sports/get-started-in-dog-sports-and-events/">
+          
+                  Intro to Dog Sports
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/register/information/canine-partners/">
+          
+                  Canine Partners / Enroll Mixed Breed
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/titles-and-abbreviations/">
+          
+                  Titles &amp; Abbreviations
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/expert-advice/lifestyle/which-sport-should-you-do-with-your-dog/">
+          
+                  Which Sport Should You Do With Your Dog?
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/products-services/training-programs/">
+          
+                  Get Started in Dog Training
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/akc-virtual-programs/">
+          
+                  Virtual Dog Sports &amp; Events
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Featured Events</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/">
+          
+                  See Upcoming Events
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/tracking/events/akc-national-tracking-invitational/">
+          
+                  AKC National Tracking Invitational
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/conformation/national-championship/">
+          
+                  AKC National Championship
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/agility/events/akc-agility-invitational/">
+          
+                  AKC Agility Invitational
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/obedience/events/obedience-classic/">
+          
+                  Obedience Classic
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/meet-the-breeds/">
+          
+                  AKC Meet the Breeds
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/obedience/events/national-championship/">
+          
+                  AKC National Obedience Championship
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/rally/events/akc-rally-national-championship/">
+          
+                  AKC Rally National Championship
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__2-up">
+              
+                          <h3 class="mega-menu-column__title">Browse All Dog Sports</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/conformation/">
+          
+                  Conformation Dog Shows
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/conformation/akc-match/">
+                      
+                              Match Shows
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/conformation/4-6-month-puppy/">
+                      
+                              4-6 Month Beginner Puppy
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/conformation/puppy-of-achievement/">
+                      
+                              Puppy of Achievement
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/conformation/national-owner-handled-series/">
+                      
+                              National Owner Handled Series
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/conformation/fss-open-show/">
+                      
+                              FSS Open Show
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/companion/">
+          
+                  Companion Sports
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/agility/">
+                      
+                              Agility
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/obedience/">
+                      
+                              Obedience
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/rally/">
+                      
+                              Rally
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://akc.org/sports/tracking/">
+                      
+                              Tracking
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/title-recognition-program/">
+          
+                  Title Recognition Program
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="/sports/title-recognition-program/public-service-dog-program/">
+                      
+                              Public Service Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/barn-hunt/">
+                      
+                              Barn Hunt
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/disc-dog/">
+                      
+                              Disc Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/dock-diving/">
+                      
+                              Diving Dogs
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/flyball/">
+                      
+                              Flyball
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/search-and-rescue/">
+                      
+                              Search &amp; Rescue
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/parent-club-title-recognition/">
+                      
+                              Parent Club Title Recognition
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                      </ul>
+                  </div>
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/beginners-guide-performance-sports/">
+          
+                  Performance Sports
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/field-events-hounds/">
+                      
+                              Field Events for Hounds
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/coursing/">
+                      
+                              Coursing, CAT &amp; FAST CAT
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/earthdog/">
+                      
+                              Earthdog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/herding/">
+                      
+                              Herding &amp; Farm Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/pointing-breeds/">
+                      
+                              Pointing Breeds
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/retrievers/">
+                      
+                              Retrievers
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/akc-scent-work/">
+                      
+                              Scent Work
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/spaniels/">
+                      
+                              Spaniels &amp; Flushing Breeds
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/juniors/">
+          
+                  Sports for Juniors
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/conformation/junior-showmanship/">
+                      
+                              Junior Showmanship
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/juniors/junior-handlers-in-companion-sports/">
+                      
+                              Juniors in Companion Events
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/juniors/junior-handlers-in-performance-sports/">
+                      
+                              Juniors in Performance Events
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/conformation/junior-showmanship/pee-wee-special-attraction-guidelines/">
+                      
+                              PeeWee Special Attractions
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/sports/akc-family-dog-program/">
+          
+                  AKC Family Dog Program
+          
+          
+          </a>
+
+                                      <ul class="mega-menu-column__sub-menu">
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/products-services/training-programs/canine-good-citizen/">
+                      
+                              CGC &amp; AKC S.T.A.R. Puppy
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/trick-dog/">
+                      
+                              AKC Trick Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/title-recognition-program/therapy-dog-program/">
+                      
+                              AKC Therapy Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/sports/akc-family-dog-program/akc-fit-dog/">
+                      
+                              AKC Fit Dog
+                      
+                      
+                      </a>
+                  </li>
+                                          <li class="mega-menu-column__sub-menu-item">
+                                              <a class="menu-link  menu-link__sub-link " href="https://www.akc.org/akctemptest/">
+                      
+                              AKC Temperament Test
+                      
+                      
+                      </a>
+                  </li>
+                                      </ul>
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">RESOURCES FOR DOG SPORT PARTICIPANTS</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://apps.akc.org/event-search/" target="_blank">
+          
+                  Event Search
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/title-application-portal/">
+          
+                  Title Application Portal
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/downloadable-forms/">
+          
+                  Downloadable Forms
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/rules/">
+          
+                  Rules &amp; Regulations
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://apps.akc.org/apps/eventplans/index.cfm" target="_blank">
+          
+                  Online Event Management
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org//apps/store/index.cfm?view=product&amp;cde_category=DOG&amp;cde_product=CMPREC&amp;external=yes/&amp;_ga=2.169842788.471467485.1509302629-2146542360.1496667941" target="_blank">
+          
+                  Points &amp; Awards
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/judges-resource-center/">
+          
+                  Judging Resource Center
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org//apps/judges_directory/" target="_blank">
+          
+                  Judges Directory
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.caninecollege.akc.org/" target="_blank">
+          
+                  Judges Education - AKC Canine College
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akcwinners.com/results/list-view/" target="_blank">
+          
+                  AKC Weekly Winners
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/event-cancellations/">
+          
+                  Event Cancellations
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/apps/awards_corrections/">
+          
+                  Award Corrections
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/contact-information-sports/">
+          
+                  AKC Contact Info for All Sports
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/conformation/akc-registered-handlers/">
+          
+                  AKC Registered Handler Program
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/juniors/">
+          
+                  Junior Resources
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org/cluster-coordination/">
+          
+                  Cluster Coordination
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+      </div>
+              <div class="mega-menu__panel mega-menu__grid mega-menu__grid-4-up" id="clubs-delegates" data-js-component="megaMenu" data-parent=".mega-menu" data-dropdown-trigger=".primary-nav__link" data-js-component-initialized="true">
+                      <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Find a Club</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://webapps.akc.org/club-search/" target="_blank">
+          
+                  Search All AKC Clubs
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/sports/events/">
+          
+                  Find an Event
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Clubs Offering:</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://webapps.akc.org/obedience-training-club/#/" target="_blank">
+          
+                  Training Classes
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Clubs</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/clubs/about-club-relations/">
+          
+                  About Club Relations
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="">
+          
+                  
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/clubs/forming-a-club/club-bylaw-services/">
+          
+                  Club Bylaw Services
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/clubs/about-club-development/">
+          
+                  Club Development Department
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/promote/">
+          
+                  Promote a Club
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/clubs/resources/">
+          
+                  Club Resources
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/clubs/centennial-clubs/">
+          
+                  AKC Centennial Clubs
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">For Delegates</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/delegates/delegates-portal/">
+          
+                  Delegate Portal
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.apps.akc.org//apps/insideAKC/delegates/delegates_search.cfm" target="_blank">
+          
+                  Delegate Directory &amp; Search
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/delegate-meeting-dates/">
+          
+                  Delegate Meeting Dates
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/about/minutes-reports/board-minutes/">
+          
+                  Board Minutes
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/delegates/standing-committees/">
+          
+                  Delegate Standing Committees
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/clubs-delegates/delegates/delegates-portal/perspectives/">
+          
+                  Perspectives Newsletter
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.akc.org/products-services/magazines/akc-gazette/">
+          
+                  AKC Gazette
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.youtube.com/watch?v=m-Mp3Z9fg7s" target="_blank">
+          
+                  The Role of an AKC Delegate
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://images.akc.org/pdf/The_Importance_of_Your_AKC_Delegate_2018.pdf">
+          
+                  The Importance of Your AKC Delegate
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+              <div class="mega-menu-column">
+              
+              
+              
+              
+              
+              
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">Government Relations</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://www.votervoice.net/AKC/Home" target="_blank">
+          
+                  Legislative Action Center
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/government-relations/legislative-alerts/">
+          
+                  Legislative Alerts
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/government-relations/donations/">
+          
+                  AKC PAC and Legislative Support Fund
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/clubs-delegates/government-relations/">
+          
+                  Government Relations Department
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+                      <div class="mega-menu-column__menu-section mega-menu-column__1-up">
+              
+                          <h3 class="mega-menu-column__title">AKC Library &amp; Archives</h3>
+              
+              
+                          <div class="mega-menu-column__section ">
+                                  <div class="mega-menu-column__section-col">
+                                      <ul class="mega-menu-column__menu">
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/about/archive/guide-collections/">
+          
+                  Overview of Collections
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/about/archive/">
+          
+                  Breed Club Archives
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://a40015.eos-intl.net/A40015/OPAC/Index.aspx" target="_blank">
+          
+                  Search the Library Catalog
+          
+          
+          </a>
+
+                              </li>
+                              <li class="mega-menu-column__menu-item">
+                                  <a class="menu-link " href="https://akc.org/about/archive/faq/">
+          
+                  How to Visit and/or Donate
+          
+          
+          </a>
+
+                              </li>
+                      </ul>
+                  </div>
+                          </div>
+              
+              
+                      </div>
+              
+              </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+
+ -->
+
+
+
+
+<!-- ================================================================================================================================= -->
+
+
+
+
+
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/boerbol.jpg" style="width:50%"><img src="images/boerbol.jpg" style="width:50%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/eskimo.jpg" style="width:50%"><img src="images/eskimo.jpg" style="width:50%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/toydog1.jpg" style="width:50%"><img src="images/toydog1.jpg" style="width:50%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/gold retv1.jpg" style="width:50%"><img src="images/gold retv1.jpg" style="width:50%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/poodlewhite.jpg" style="width:50%"><img src="images/poodlewhite.jpg" style="width:50%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/vetdoctor.jpg" style="width: 50%;"><img src="images/vetdoctor.jpg" style="width: 50%;">
+          </div>
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="images/boerbol.jpg" style="width:100%" onclick="currentSlide(1)" alt="GIVE YOUR DOG THE BEST THREAT">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/eskimo.jpg" style="width:100%" onclick="currentSlide(2)" alt="WE HANDLE DOG IMPORTATION">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/toydog1.jpg" style="width:100%" onclick="currentSlide(3)" alt="YOUR DOG YOUR COMPANION">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/gold retv1.jpg" style="width:100%" onclick="currentSlide(4)" alt="GOLDEN RETRIVER DOG">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/poodlewhite.jpg" style="width:100%" onclick="currentSlide(5)" alt="GET YOUR FAVOURITE DOG FROM US">
+            </div>    
+            <div class="column">
+              <img class="demo cursor" src="images/vetdoctor.jpg" style="width:100%" onclick="currentSlide(6)" alt="YOUR VET AT YOUR REACH">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div><h1>FEATURED PRODUCTS</h1></div>
+
+
+
+
+
+            <div class="gallery1">
+              <a target="_blank1" href="images/Bullymax-High-Performance-1-300x300.jpg">
+                <img src="images/Bullymax-High-Performance-1-300x300.jpg" alt="dog vitamin" width="600" height="400">
+              </a>
+              <div class="desc1">Bullymax Dog Builder<div class="desc2">From #12,000</div>
+            </div></div>
+            </div>
+            
+            
+            <div class="gallery1">
+              <a target="_blank1" href="images/dogchampoo.jpg">
+                <img src="images/dogchampoo.jpg" alt="dry dog champoo" width="600" height="400">
+              </a>
+              <div class="desc1">dog champoo<div class="desc2">From #5,100</div>
+            </div>
+            </div>
+            
+            <div class="gallery1">
+              <a target="_blank1" href="images/doglesh.jpg">
+                <img src="images/doglesh.jpg" alt="dog dry food" width="600" height="400">
+              </a>
+              <div class="desc1">Cesar Dog Dry Food<div class="desc2">From #4,800</div>
+            </div>
+            </div>
+
+            <div class="gallery1">
+              <a target="_blank1" href="images/dryfood.png">
+                <img src="images/dryfood.png" alt="dog dry food" width="600" height="400">
+              </a>
+              <div class="desc1">Supervite Dog Dry Food<div class="desc2">From #4,800</div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="gallery1">
+              <a target="_blank1" href="images/boosterdryfood.jpg">
+                <img src="images/boosterdryfood.jpg" alt="dry food" width="600" height="400">
+              </a>
+              <div class="desc1">Booster Dry Food<div class="desc2">From #3,000</div>
+            </div></div>
+            </div>
+            
+            
+            <div class="gallery1">
+              <a target="_blank1" href="images/drypetcool.jpg">
+                <img src="images/drypetcool.jpg" alt="dry dog food" width="600" height="400">
+              </a>
+              <div class="desc1">Petcool Dry food<div class="desc2">From #2,600</div>
+            </div>
+            </div>
+            
+            <div class="gallery1">
+              <a target="_blank1" href="images/dryfoood.jpg">
+                <img src="images/dryfoood.jpg" alt="dog dry food" width="600" height="400">
+              </a>
+              <div class="desc1">Cesar Dog Dry Food<div class="desc2">From #4,800</div>
+            </div>
+            </div>
+
+            <div class="gallery1">
+              <a target="_blank1" href="images/dryfood.png">
+                <img src="images/dryfood.png" alt="dog dry food" width="600" height="400">
+              </a>
+              <div class="desc1">Supervite Dog Dry Food<div class="desc2">From #4,800</div>
+            </div>
+            </div>
+            
+         
+
+
+
+
+
+
+
+        
+  </body>
+    
+</html>
